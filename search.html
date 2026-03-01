@@ -19,7 +19,7 @@
 let ducks = [];
 
 async function getAll() {
-    let host = " https://ducksservice-abirami2k1.onrender.com";
+    let host = "https://ducks-service-latest-v3bl.onrender.com";
     let response = await fetch(host + "/ducks");
     ducks = await response.json();
     return ducks;
